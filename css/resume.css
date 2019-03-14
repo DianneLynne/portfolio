@@ -10,10 +10,21 @@ body {
   color: #868e96;
 }
 
+/*
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+*/
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
+    background-image: linear-gradient(to right, #000000, #07353b,#07353b,#07353b, #07353b, #07353b, #07353b, #07353b);
+  
   }
 }
 
@@ -23,23 +34,39 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'BioRhyme Expanded', serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #ffffff;
 }
 
+font-family: 'BioRhyme Expanded', serif;
+*/
+
 h1 {
-  font-size: 6rem;
+  font-size: 3rem;
   line-height: 5.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 p.lead {
@@ -106,7 +133,7 @@ p.lead {
 
 @media (min-width: 992px) {
   #sideNav {
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
@@ -117,7 +144,7 @@ p.lead {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: 10rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -127,11 +154,21 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
   }
+  /*  PROFILE PICTURE  */
+  #sideNav .navbar-brand .img-profile {
+    max-width: 8rem;
+    max-height: 8rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  }
+/*  
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
+*/
+
+/*  PROFILE PICTURE  */
+
   #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -187,7 +224,7 @@ section.resume-section .resume-item .resume-date {
 }
 /*  NAV BG COLOR   */
 .bg-primary {
-  background-image: linear-gradient(to right, #ffd00b, #ffe476,#ffffff);
+  background-color: #07353b !important;
 }
 /*
 .bg-primary {
@@ -198,7 +235,7 @@ section.resume-section .resume-item .resume-date {
 /*  NAV BG COLOR  */
 
 .text-primary {
-  color: #ffd00b !important;
+  color: #ffffff !important;
 }
 
 a {
