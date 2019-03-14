@@ -87,7 +87,18 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  
 }
+/*  HOVER COLOR   */
+/*
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color:#ffd00b;
+} 
+*/
+/*  HOVER COLOR   */
 
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
@@ -174,10 +185,17 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
-
+/*  NAV BG COLOR   */
 .bg-primary {
-  background-color: #000000 !important;
+  background-image: linear-gradient(to right, #ffd00b, #ffe476,#ffffff);
 }
+/*
+.bg-primary {
+  background-color: #aaaaaa !important;
+  background-image: linear-gradient(to right, red , yellow);
+}
+*/
+/*  NAV BG COLOR  */
 
 .text-primary {
   color: #ffd00b !important;
